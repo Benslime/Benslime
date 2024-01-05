@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+   <loc>file:///C:/wamp64/www/Entrepot_Vintage/accueil.html/</loc>
+   <changefreq>monthly</changefreq>
+   <lastmod>2023-10-26T21:29:43+00:00</lastmod>
+   <priority>1.00</priority>
+  </url>
+  <url>
+   <loc>file:///C:/wamp64/www/Entrepot_Vintage/Àpropos.html</loc>
+   <changefreq>monthly</changefreq>
+   <lastmod>2023-10-26T21:29:43+00:00</lastmod>
+   <priority>1.00</priority>
+</url>
+<url>
+   <loc>file:///C:/wamp64/www/Entrepot_Vintage/produits.html</loc>
+   <changefreq>yearly</changefreq>
+   <lastmod>2023-10-26T21:29:43+00:00</lastmod>
+   <priority>0.30</priority>
+</url>
+<url>
+   <loc>file:///C:/wamp64/www/Entrepot_Vintage/contact.html</loc>
+   <changefreq>yearly</changefreq>
+   <lastmod>2023-10-26T21:29:43+00:00</lastmod>
+   <priority>0.30</priority>
+</url>
+</urlset>
