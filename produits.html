@@ -1,0 +1,132 @@
+<html>
+ 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Découvrez nos Trésors Vintage - Entrepôt Vintage</title>
+<link rel="icon" href="img/Logo.svg" alt="Entrepôt Vintage Logo">
+<meta name="description" content="Découvrez une sélection exquise de produits vintage sur Entrepôt Vintage. Des articles authentiques des années 50 aux années 80. Explorez notre catalogue diversifié comprenant des radios, des vêtements, des lampes et des bandes dessinées vintage. Trouvez des trésors uniques et créez une ambiance rétro chez vous.">
+
+<link rel="canonical" href="produits.html">
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/AllPages.css">
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="js/Panier.js"></script>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg mt-2 justify-content-center m-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="accueil.html">
+        <img src="img/Logo.svg" alt="Vintage" width="30" height="24">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="accueil.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Àpropos.html">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="produits.html">Nos produits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+        <i class="fa fa-shopping-cart m-2" aria-hidden="true" data-toggle="modal" data-target="#cart">(<span class="total-count"></span>)</i>
+        <i class="fa fa-trash clear-cart m-2 me-3" aria-hidden="true"></i>
+        <form class="d-flex mb-2 me-2" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <a href="Connexion.html"><input type="button" value="Connexion" class="btn mb-2"></a>
+      </div>
+    </div>
+  </nav>
+  <!--/Navbar-->
+
+  <!--contenu-->
+  <div class="container mt-5 flex-wrap justify-content-center mb-3">
+    <div class="row">
+      <div class="col-md-3" data-name="Radio 50's">
+        <div class="card">
+          <img class="card-img-top m-2" src="img/Radio50_s.jpg" alt="Radio 50's">
+          <div class="card-block">
+            <h4 class="card-title m-2">Radio 50's</h4>
+            <p class="card-text m-2">Une radio vintage des années 50 avec un design rétro unique. Idéale pour les amateurs de musique classique.</p>
+            <b><p class="card-text m-2">Prix: 50.99DT</p></b>
+            <a href="#" data-name="Radio 50's" data-prix="50.99" class="add-to-cart btn m-2">Ajouter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" data-name="Pantalon 70's">
+        <div class="card">
+          <img class="card-img-top m-2" src="img/Pantalon70_s.png" alt="Pantalon 70's">
+          <div class="card-block">
+            <h4 class="card-title m-2">Pantalon 70's</h4>
+            <p class="card-text m-2">Un pantalon vintage des années 70 avec un style rétro tendance. Parfait pour une tenue décontractée.</p>
+            <b><p class="card-text m-2">Prix: 45.99DT</p></b>
+            <a href="#" data-name="Pantalon 70's" data-prix="45.99" class="add-to-cart btn m-2">Ajouter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" data-name="Lampe 70's">
+        <div class="card">
+          <img class="card-img-top m-2" src="img/Lampe70_s.png" alt="Lampe 70's">
+          <div class="card-block">
+            <h4 class="card-title m-2">Lampe 70's</h4>
+            <p class="card-text m-2">Une lampe vintage des années 70 qui apporte une ambiance rétro à n'importe quelle pièce. Éclairez votre espace avec style.</p>
+            <b><p class="card-text m-2">Prix: 38DT</p></b>
+            <a href="#" data-name="Lampe 70's" data-prix="38" class="add-to-cart btn m-2">Ajouter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3" data-name="BD 80's">
+        <div class="card">
+          <img class="card-img-top m-2" src="img/BD80_s.jpg" alt="BD 80's">
+          <div class="card-block">
+            <h4 class="card-title m-2">BD 80's</h4>
+            <p class="card-text m-2">Une bande dessinée vintage des années 80 pour les amateurs de récits captivants. Ajoutez une touche rétro à votre collection.</p>
+            <b><p class="card-text m-2">Prix: 170.99DT</p></b>
+            <a href="#" data-name="BD 80's" data-prix="170.99" class="add-to-cart btn m-2">Ajouter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/contenu-->
+
+ <!--modal panier-->
+ <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="cartLabel">Panier</h5>
+          </div>
+          <div class="modal-body">
+              <p>Votre panier</p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">Fermer</button>
+              <button type="button" class="btn">Commander</button>
+          </div>
+      </div>
+  </div>
+</div>
+<!--/modal panier-->
+</body>
+
+</html>
